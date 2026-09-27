@@ -1,0 +1,58 @@
+.toast{
+    position:fixed;
+    bottom:90px;
+    left:50%;
+    transform:translateX(-50%) translateY(20px);
+    background:#111;
+    color:#fff;
+    padding:12px 22px;
+    border-radius:999px;
+    opacity:0;
+    transition:.3s;
+    z-index:120;
+    font-size:14px
+}
+.toast.show{
+    opacity:1;
+    transform:translateX(-50%) translateY(0)
+}
+form.contact{
+    display:grid;
+    gap:12px
+}
+form.contact input,form.contact textarea{
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    width:100%
+}
+.breadcrumb{
+    padding:14px 24px;
+    font-size:13px;
+    color:#777
+}
+.breadcrumb a{
+    text-decoration:underline
+}
+.seo-list{
+    margin:16px 0 16px 20px;
+    display:grid;
+    gap:8px;
+    color:#333
+}
+details{
+    border:1px solid #e5e5e5;
+    border-radius:12px;
+    padding:14px 18px;
+    margin:10px 0;
+    background:#fff
+}
+details summary{
+    cursor:pointer;
+    font-weight:700
+}
+h1{
+    font-size:clamp(30px,4.5vw,52px);
+    line-height:1.12;
+    margin-bottom:16px
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Katalog HP Banjar Ciamis Pangandaran | Lestari Cell Langen</title>
+        <meta name="description" content="Katalog HP Lestari Cell Langen: iPhone second, Samsung, Xiaomi, Oppo, Vivo baru bergaransi. COD Banjar, Ciamis, Pangandaran. Checkout via WhatsApp.">
+        <link rel="canonical" href="https://lestaricell-langen.id/katalog.html">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="container nav">
+                <a class="logo" href="index.html">
+                    <span>L</span>LESTARI CELL
+                </a>
+<nav class="menu" id="menu">
+    <a href="index.html">Beranda</a>
+    <a href="katalog.html" class="active">Katalog</a>
+    <a href="cabang-resmi.html">Area Layanan</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="tentang.html">Tentang</a>
+<button class="cart-btn" onclick="document.getElementById('cartDrawer').classList.add('open');document.getElementById('cartOverlay').classList.add('open')">Keranjang <span class="cart-count" id="cartCount">0</span>
+</button>
+</nav>
+<div class="hamburger" onclick="document.getElementById('menu').classList.toggle('open')">☰</div>
+</div>
+</header>
+<nav class="container breadcrumb">
+    <a href="index.html">Beranda</a> / Katalog</nav>
+<section class="section container">
+<div class="kicker">Katalog</div>
+<h1>Semua HP: Banjar, Ciamis, Pangandaran</h1>
+<p class="lead">Pilih HP → keranjang → checkout WhatsApp <a href="https://wa.me/6281234567890">+62 812-3456-7890</a>. Tulis area antar: Banjar / Ciamis / Pangandaran.</p>
+<div class="filter-bar"><button class="active" onclick="setFilter('all',this)">Semua</button>
+    <button onclick="setFilter('iphone',this)">iPhone</button>
+    <button onclick="setFilter('iphone',this)">honor</button>
+    <button onclick="setFilter('samsung',this)">Samsung</button>
+    <button onclick="setFilter('xiaomi',this)">Xiaomi</button>
+    <button onclick="setFilter('oppo-vivo',this)">Oppo / Vivo</button>
+    <button onclick="setFilter('second',this)">Second</button>
+    <input class="search" id="searchInput" placeholder="Cari: iPhone 13, Redmi..."></div>
+<div class="product-grid" id="productGrid"></div>
+<p style="margin-top:24px">Cari area spesifik: <a href="toko-hp-banjar.html">Toko HP Banjar</a> • <a href="toko-hp-ciamis.html">Toko HP Ciamis</a> • <a href="toko-hp-pangandaran.html">Toko HP Pangandaran</a>
+</p>
+</section>
+<div class="cart-overlay" id="cartOverlay" onclick="document.getElementById('cartDrawer').classList.remove('open');this.classList.remove('open')"></div>
+<aside class="cart-drawer" id="cartDrawer">
+<div class="cart-head">
+    <h3>Keranjang</h3>
+    <button onclick="document.getElementById('cartDrawer').classList.remove('open');document.getElementById('cartOverlay').classList.remove('open')" style="border:0;background:none;font-size:22px;cursor:pointer">✕</button></div>
+<div class="cart-items" id="cartItems">
+
+</div>
+<div class="cart-foot">
+    <div style="display:flex;justify-content:space-between">
+        <strong>Total</strong>
+        <strong id="cartTotal">Rp 0</strong>
+    </div>
+<button class="btn btn-green" onclick="checkoutWA()">Checkout via WhatsApp</button>
+</div>
+</aside>
+<a class="whatsapp" href="https://wa.me/6281234567890?text=Halo%20Lestari%20Cell%20Langen" target="_blank" rel="noopener">✆</a>
+<footer>
+    <div class="container copy">
+        <span>© 2026 Lestari Cell Langen</span>
+        <a href="index.html" style="color:#fff">← Beranda</a>
+    </div>
+</footer>
+<script src="app.js">
+</script>
+</body>
+</html>
